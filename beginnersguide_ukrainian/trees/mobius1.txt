@@ -1,0 +1,32 @@
+#modern
+
+go
+{
+	[color ffffff] 
+	Opt1: Мене розпирає енергія творчості. [play endfail]
+	Opt2: Я не можу і далі робити їх. [play ending]
+	Opt3: Моя робота завжди весела. [play endfail]
+}
+
+endfail
+{
+[fire end2 disable]
+	[wait 1 sec]
+[fire end3e trigger]
+	[wait 1 sec]
+}
+
+ending
+{
+[fire ending_relay trigger]
+	[wait 1 sec]
+}
+
+
+[go]
+
+
+
+
+
+

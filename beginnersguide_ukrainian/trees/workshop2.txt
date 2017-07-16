@@ -1,0 +1,85 @@
+#modern
+
+Go
+{
+	[color f8fc25] 
+	[fire lecture_turn trigger]Чому ви сьогодні сюди прийшли?
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]Щоб покращити життя?
+		[wait 3 sec]
+	[fire lecture_turn trigger]Щоб знайти кращу роботу?
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]Щоб зробити стосунки більш значущими?
+		[wait 2 sec]
+	[fire lecture_turn trigger]Ні.
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]Ви прийшли сюди для того, щоб стати ДОСКОНАЛИМИ.
+		[wait 4 sec]
+[fire teleport1 enable][fire lecture_turn trigger]Цей семінар навчить вас, як бути досконалими.
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]Я хочу, щоб ваші друзі, люди у вашому житті, дивлячись на вас думали:
+		[wait 3 sec]
+	[fire lecture_turn trigger]"Ого, ця особа - краща людина, ніж я".
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]Хто зараз спадає на думку?
+		[wait 3 sec]
+	[fire lecture_turn trigger]Кого ви знаєте, хто є настільки розвинутим, як людина, що змушує вас відчувати огиду до себе?
+		[wait 4 sec]
+	[fire lecture_turn2 trigger]В порівнянні з ким ви себе почуваєте ні на що не здатними.
+		[wait 2 sec]
+	[fire lecture_turn trigger]Корисливими.
+		[wait 1 sec]
+	[fire lecture_turn2 trigger]Невдячними.
+		[wait 1 sec]
+	[fire lecture_turn trigger]Я маю намір перетворити вас на ту особу.
+		[wait 2 sec]
+	[fire telejitter enable]
+		[wait 1 sec]
+[fire teleport2 enable][fire lecture_turn2 trigger]Досконалість у ваших руках.
+		[wait 4 sec]
+	[fire lecture_turn trigger]І питання не в тому, як ми це зробимо, а як ми це зробимо НЕ ДОКЛАДАЮЧИ ЗУСИЛЬ.
+		[wait 4 sec]
+	[fire lecture_turn2 trigger]Це легко.
+		[wait 2 sec]
+	[fire lecture_turn trigger]Це так просто.
+		[wait 2 sec]
+	[fire lecture_turn2 trigger]Це так легко.
+		[wait 2 sec]
+	[fire lecture_turn trigger]Бути досконалим - легко.
+		[wait 4 sec]
+[fire transition trigger]
+}
+
+[Go]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

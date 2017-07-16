@@ -1,0 +1,24 @@
+#modern
+
+go
+{
+	[color ffffff] 
+	Opt1: Я сам. [play continue]
+	Opt2: Я застряг у цьому. [play continue]
+	Opt3: Я маю працювати старанніше. [play continue]
+}
+
+continue
+{
+[fire ending3 trigger]
+	[wait 1 sec]
+}
+
+
+[go]
+
+
+
+
+
+

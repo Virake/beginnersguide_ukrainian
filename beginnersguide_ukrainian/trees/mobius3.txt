@@ -1,0 +1,24 @@
+#modern
+
+go
+{
+	[color ffffff] 
+	Opt1: Я не був чесним. [play continue]
+	Opt2: Не можу зрозуміти, як це сказати.  [play continue]
+	Opt3: Я гадав, що це буде легко. [play continue]
+}
+
+continue
+{
+[fire ending2 trigger]
+	[wait 1 sec]
+}
+
+
+[go]
+
+
+
+
+
+

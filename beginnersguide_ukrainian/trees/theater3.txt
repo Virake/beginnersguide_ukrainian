@@ -1,0 +1,24 @@
+#modern
+
+Go
+{
+	[color f8fc25] 
+Так, добре! Тепер виходить! Ось так все і було!
+	[wait 4 sec]
+[clear]
+	[wait 5 sec]
+Це чудово, неперевершено, справді дивовижно.
+	[wait 4 sec]
+[clear]
+	[wait 9 sec]
+Ти молодець.
+	[wait 4 sec]
+[clear]
+	[wait 1 sec]
+}
+
+[Go]
+
+
+
+

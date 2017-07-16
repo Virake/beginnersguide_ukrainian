@@ -1,0 +1,106 @@
+Go
+{
+	[color f15822] 
+	Які мбелі мають бути посередині кімнати?
+		[wait 3 sec]
+	[play response1]
+}
+
+response1
+{
+	[color ffcc00] 
+	Opt1: Як щодо телевізора з об'ємним звуком? [Play table]
+	Opt2: Холодильник. [Play table]
+	Opt3: Зроби в підлозі здоровенну дірку. [Play table]
+}
+
+table
+{
+	[wait 1 sec]
+	[fire makePrison_prop_glasstable enable] [fire glass_table_boop playsound] [fire table1outline disable]
+	[clear]
+	[wait 3 sec]
+	Добре, а що буде вздовж стіни?
+	[wait 2 sec]
+	[play response2]
+}
+
+response2
+{
+	Opt1: Давай повісимо величезну картину коня. [Play couch]
+	Opt2: Я б дуже хотів пральну машину. [Play couch]
+	Opt3: 10 газових плит уздовж стіни. [Play couch]
+}
+
+couch
+{
+	[wait 2 sec]
+	[fire makePrison_prop_sofa01 enable]
+	[fire couch1outline disable]
+	[fire couch_place_boop playsound]
+	[fire makePrison_prop_sofa02 enable]
+	[clear]
+	[wait 3 sec]
+	Слід трохи освітити кімнату.
+	[wait 2 sec]
+	[play response3]
+}
+
+response3
+{
+	Opt1: Природнє світло. Вікно на всю стелю. Відчинимо цю крихітку. [Play light]
+	Opt2: Нехай на стелі будуть вбудовані електричні 6-дюймові, 10 на 12, м'які світодіодні світильники з флуоресцентними обідками.  [Play light]
+	Opt3: Поставимо справжні котушки Тесли у кожному кутку. Саме так. [Play light]
+}
+
+light
+{
+	[wait 2 sec]
+	[fire makePrison_relay_lamp trigger] [fire lampoutline disable] [fire lamp_place_boop playsound]
+	[clear]
+	[wait 3 sec]
+	І стіл! Вам потрібен стіл!
+	[wait 2 sec]
+	[play response5]
+}
+
+response4
+{
+	Opt1: Можемо поставити картотечні шафи. [fire VO_8 start] [Play shelves]
+	Opt2: Майже впевнений, що жодне з цих рішень ні на що не впливає. [fire VO_8 start] [Play shelves]
+	Opt3: Так! Сейф! Величезний сейф з велетенським замком! [fire VO_8 start] [Play shelves]
+}
+
+shelves
+{
+	[wait 2 sec]
+	[fire makePrison_prop_shelves enable]
+	[clear]
+	[wait 3 sec]
+	І стіл! Вам потрібен стіл!
+	[wait 2 sec]
+	[play response5]
+}
+
+response5
+{
+	Opt1: Хто ти? І звідки ти це робиш? [Play final]
+	Opt2: Я майже впевнений, що жодне з моїх рішень ні на що не впливає. [Play final]
+	Opt3: Столи були винайдені у 1935 році. [Play final]
+}
+
+final
+{
+	[wait 2 sec]
+	[fire makePrison_prop_counter enable] [fire shelfoutline disable] [fire table_place_boop playsound]
+	[clear]
+	[wait 2 sec]
+	[fire makePrison_relay_expand trigger]
+	[wait 5 sec]
+	[fire VO_3 start]
+	[wait 12 sec]
+	[fire end_furniture_questions trigger]
+}
+
+
+[Go]

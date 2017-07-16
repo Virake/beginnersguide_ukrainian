@@ -1,0 +1,33 @@
+#modern
+
+go
+{
+	[color ffffff] 
+	Opt1: РЯТУЙТЕ! Я осліп! [wait 6 sec] [play line2]
+	Opt2: Я нічого не бачу! [wait 6 sec] [play line2]
+	Opt3: Що діється?? [wait 6 sec] [play line2]
+}
+
+line2
+{
+	[color ffffff] 
+	Opt1: Прошу, хто-небудь, поговоріть зі мною! [play line3]
+	Opt2: Прошу, скажіть як вирішити це. [play line3]
+	Opt3: Прошу, нехай це не буде вічно. [play line3]
+
+}
+
+line3
+{
+	[wait 1 sec]
+}
+
+
+
+[go]
+
+
+
+
+
+

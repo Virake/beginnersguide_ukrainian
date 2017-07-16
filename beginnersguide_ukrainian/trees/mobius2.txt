@@ -1,0 +1,24 @@
+#modern
+
+go
+{
+	[color ffffff] 
+	Opt1: Я більше цього не відчуваю. [play continue]
+	Opt2: У мене скінчилися ідеї. [play continue]
+	Opt3: Це мене виснажує. [play continue]
+}
+
+continue
+{
+[fire ending1 trigger]
+	[wait 1 sec]
+}
+
+
+[go]
+
+
+
+
+
+
