@@ -1,0 +1,33 @@
+#modern
+
+dialogue1
+{
+	[color ffffff]
+	Opt1: Привіт? [fire pres1a enable] [play transition1]
+	Opt2: Де я? [fire pres1b enable] [play transition1]
+	Opt3: Що це? [fire pres1c enable] [play transition1]
+}
+
+transition1
+{
+[fire block1fadeout trigger][fire presence_music playsound]
+	[wait 5 sec]
+[play dialogue2]
+}
+
+dialogue2
+{
+	[color ffffff]
+	Opt1: Звідки взявся цей острів? [fire pres2a enable] [fire block2fadeout trigger] [play transition2]
+	Opt2: Як звідси вибратися? [fire pres2b enable] [fire block2fadeout trigger] [play transition2]
+	Opt3: Привіт? Тут хтось є?! [fire pres2c enable] [fire block2fadeout trigger] [play transition2]
+}
+
+transition2
+{
+	[wait 5 sec]
+[fire trigger2 enable]
+	[wait 1 sec]
+}
+
+[dialogue1]

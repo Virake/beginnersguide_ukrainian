@@ -1,0 +1,58 @@
+#modern
+
+start
+{
+	[color f85078] 
+	[wait 2 sec]
+Гаразд, що далі?
+	[wait 2 sec]
+[play p3n]
+}
+
+p3n
+{
+	[color ffffff]
+	Opt1: Тепер просто зачиніть перші двері. [play p3fA]
+	Opt2: Тепер просто відчиніть перші двері. [play p3fB]
+	Opt3: Тепер просто натисніть цей перемикач. [play p3s]
+}
+
+p3fA
+{
+	[color f85078] 
+	[wait 2 sec]
+Однак, вони вже зачинені.
+	[wait 3 sec]
+[play p3nb]
+}
+
+p3fB
+{
+	[color f85078] 
+	[wait 2 sec]
+Не думаю, що звідси є спосіб їх відчинити.
+	[wait 3 sec]
+[play p3nb]
+}
+
+p3nb
+{
+	Opt1: Що ж, просто зачиніть перші двері. [play p3fA]
+	Opt2: Що ж, просто відчиніть перші двері. [play p3fB]
+	Opt3: Що ж, просто натисніть цей перемикач. [play p3s]
+}
+
+p3s
+{
+	[wait 1 sec]
+[fire door2open trigger]
+	[wait 2 sec]
+Ха! Це було так просто!
+	[wait 2 sec]
+Не можу повірити, що не розв'язав її раніше.
+	[wait 1 sec]
+}
+
+
+
+[start]

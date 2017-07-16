@@ -1,0 +1,37 @@
+#modern
+
+game1
+{
+	[color f85078] 
+Зачекайте, ви шукаєте машину?
+	[wait 2 sec]
+Здається, я знаю, де вона є!
+	[wait 2 sec]
+Вона не далеко.
+	[wait 4 sec]
+[play dialogue1]
+}
+
+dialogue1
+{
+	[color ffffff]
+	Opt1: Що?? [fire pres5a enable] [fire block5fadeout trigger] [play transition1]
+	Opt2: Відведіть мене до неї! [fire pres5b enable] [fire block5fadeout trigger] [play transition2]
+	Opt3: Мені треба її побачити, зрозуміти, чому вона зупинилася. [fire pres5c enable] [fire block5fadeout trigger] [play transition1]
+}
+
+transition1
+{
+	[wait 4 sec]
+[fire presence4a enable]
+	[wait 1 sec]
+}
+
+transition2
+{
+	[wait 4 sec]
+[fire presence4b enable]
+	[wait 1 sec]
+}
+
+[game1]

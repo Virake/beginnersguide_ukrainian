@@ -1,0 +1,86 @@
+#modern
+
+start
+{
+	[color f85078] 
+	[wait 2 sec]
+Не працює. Що тепер?
+	[wait 2 sec]
+[play p2n]
+}
+
+p1n
+{
+	[color ffffffff]
+	Opt1: Ви маєте зачинити двері. [play p1fC]
+	Opt2: Ви маєте відчинити двері. [play p1s]
+	Opt3: Ви маєте натиснути перемикач всередині. [play p1fD]
+}
+
+p1fC
+{
+	[color f85078] 
+	[wait 2 sec]
+Ммм... двері досі зачинені.
+	[wait 3 sec]
+[play p1n]
+}
+
+p1fD
+{
+	[color f85078] 
+	[wait 2 sec]
+Ми... ми все ще зовні.
+	[wait 3 sec]
+[play p1n]
+}
+
+
+p1s
+{
+[fire door1open trigger]
+	[wait 2 sec]
+Добре, що далі?
+	[wait 3 sec]
+[play p2n]
+}
+
+p2n
+{
+	Opt1: Тепер ви маєте зачинити перші двері. [play p2s]
+	Opt2: Тепер ви маєте відчинити перші двері. [play p2fA]
+	Opt3: Тепер ви маєте натиснути на перемикач всередині. [play p2fB]
+}
+
+p2fA
+{
+	[wait 2 sec]
+Але вони вже відчинені!
+	[wait 2 sec]
+[play p2nb]
+}
+
+p2fB
+{
+	[wait 2 sec]
+Не бачу тут ніякого перемикача.
+	[wait 2 sec]
+[play p2nb]
+}
+
+p2nb
+{
+	Opt1: У цьому випадку, зачиніть перші двері. [play p2s]
+	Opt2: У цьому випадку, відчиніть перші двері. [play p2fA]
+	Opt3: У цьому випадку, натисніть перемикач всередині. [play p2fB]
+}
+
+p2s
+{
+	[wait 0.5 sec]
+[fire door1close trigger]
+	[wait 1 sec]
+}
+
+
+[start]

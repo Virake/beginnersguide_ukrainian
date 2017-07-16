@@ -1,0 +1,136 @@
+#modern
+
+start
+{
+	[color f85078] 
+Ось тут і головоломка.
+	[wait 2 sec]
+Що думаєте?
+	[wait 2 sec]
+[play start2]
+}
+
+start2
+{
+	[color ffffff]
+	Opt1: Гей, я це впізнаю! [fire pres5a2 enable] [play start3]
+	Opt2: Я вирішував цю головоломку раніше! [fire pres5b2 enable] [play start3]
+	Opt3: Це легко! [fire pres5c2 enable] [play start3]
+}
+
+start3
+{
+	[color f85078]
+	[wait 2 sec] 
+Ох чудово!
+	[wait 2 sec]
+Можете розповісти, як вирішити її?
+	[wait 2 sec]
+[play p1i]
+}
+
+p1i
+{
+	[color ffffff]
+	Opt1: По-перше, треба закрити двері. [play p1fA]
+	Opt2: Спершу потрібно відчинити двері. [play p1s]
+	Opt3: Спочатку слід натиснути перемикач усередині. [play p1fB]
+}
+
+p1fA
+{
+	[color f85078] 
+	[wait 2 sec]
+Але ж двері вже зачинені!
+	[wait 3 sec]
+[play p1n]
+}
+
+p1fB
+{
+	[color f85078] 
+	[wait 2 sec]
+Але ж ми не всередині!
+	[wait 3 sec]
+[play p1n]
+}
+
+p1n
+{
+	Opt1: Слід зачинити двері. [play p1fC]
+	Opt2: Слід відчинити двері. [play p1s]
+	Opt3: Слід натиснути перемикач усередині. [play p1fD]
+}
+
+p1fC
+{
+	[color f85078] 
+	[wait 2 sec]
+Хммм... двері досі зачинені.
+	[wait 3 sec]
+[play p1n]
+}
+
+p1fD
+{
+	[color f85078] 
+	[wait 2 sec]
+Ми... досі зовні.
+	[wait 3 sec]
+[play p1n]
+}
+
+
+p1s
+{
+[fire door1open trigger]
+	[wait 2 sec]
+Добре, що тепер?
+	[wait 3 sec]
+[play p2n]
+}
+
+p2n
+{
+	Opt1: Тепер треба зачинити перші двері. [play p2s]
+	Opt2: Тепер треба відчинити перші двері. [play p2fA]
+	Opt3: Тепер треба натиснути перемикач всередині. [play p2fB]
+}
+
+p2fA
+{
+	[wait 2 sec]
+Але вони вже відчинені!
+	[wait 2 sec]
+[play p2nb]
+}
+
+p2fB
+{
+	[wait 2 sec]
+Не бачу тут ніякого перемикача.
+	[wait 2 sec]
+[play p2nb]
+}
+
+p2nb
+{
+	Opt1: Тоді зачиніть перші двері. [play p2s]
+	Opt2: У цьому разі, відчиніть перші двері. [play p2fA]
+	Opt3: У такому випадку, натисніть перемикач усередині. [play p2fB]
+}
+
+p2s
+{
+	[wait 0.5 sec]
+[fire door1close trigger]
+	[wait 1 sec]
+}
+
+
+
+
+
+
+
+[start]

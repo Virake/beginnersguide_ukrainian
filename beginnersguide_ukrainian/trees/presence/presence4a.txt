@@ -1,0 +1,31 @@
+#modern
+
+game1
+{
+	[color f85078] 
+Я можу відвести вас до неї, але є проблема.
+	[wait 2 sec]
+Її захищає складна головоломка.
+	[wait 2 sec]
+Якщо допоможете вирішити її, то відшукаємо машину.
+	[wait 2 sec]
+Згода?
+	[wait 3 sec]
+[play dialogue1]
+}
+
+dialogue1
+{
+	[color ffffff]
+	Opt1: Згода. [fire block6fadeout trigger] [play transition1]
+	Opt2: Згода. [fire block6fadeout trigger] [play transition1]
+	Opt3! Не має значення, що я скажу, чи не так? Ми все одно туди потрапимо, так чи інакше. Правда? [say2 Deal.]  [fire block6fadeout trigger] [play transition1]
+}
+
+transition1
+{
+	[wait 1 sec]
+}
+
+
+[game1]

@@ -1,0 +1,42 @@
+#modern
+
+game1
+{
+	[color f85078] 
+О ні!
+	[wait 2 sec]
+Що сталося? Щось змінилося?
+	[wait 2 sec]
+[play dialogue1]
+}
+
+dialogue1
+{
+	[color ffffff]
+	Opt1: Була машина, яка мене підтримувала, але вона зупинилася. [fire pres3a enable] [fire pres3a2 enable] [fire block4fadeout trigger] [play transition1]
+	Opt2: Намагаюся знайти двигуна, що захищав мене, і знову запустити його. [fire pres3b enable] [fire pres3b2 enable] [fire block4fadeout trigger] [play transition2]
+}
+
+transition1
+{
+	[wait 4 sec]
+[fire presence3a enable]
+	[wait 1 sec]
+}
+
+transition2
+{
+	[wait 4 sec]
+[fire presence3a enable]
+	[wait 1 sec]
+}
+
+transition3
+{
+	[wait 4 sec]
+[fire presence3c enable]
+	[wait 1 sec]
+}
+
+
+[game1]

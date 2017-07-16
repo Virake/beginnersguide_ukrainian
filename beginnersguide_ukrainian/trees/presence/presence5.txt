@@ -1,0 +1,13 @@
+#modern
+
+game1
+{
+	[color f85078] 
+Бездоганно.
+	[wait 2 sec]
+Ходімо, я покажу її вам.
+	[wait 1 sec]
+}
+
+
+[game1]

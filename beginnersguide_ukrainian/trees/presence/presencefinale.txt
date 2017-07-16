@@ -1,0 +1,165 @@
+#modern
+
+go
+{
+	[color f85078] 
+Гаразд! Ми на місці!
+	[wait 3 sec]
+[play coda2a]
+}
+
+coda2a
+{
+	[color ffffff]
+	Opt1: Про що ви? [fire pres10a enable] [play game2a]
+	Opt2: Тут немає машини. [fire pres10b enable] [play game2a]
+	Opt3: Це тільки якісь слова на стінах. [fire pres10c enable] [play game2a]
+}
+
+game2a
+{
+	[wait 2 sec]
+Повір мені, ти побачиш.
+	[wait 2 sec]
+Ви маєте сказати, що ваша праця легка і весела.
+	[wait 2 sec]
+Ви маєте сказати, що розробка ігор - просто і весело, що ви любите її на всі 100%.
+	[wait 4 sec]
+[play coda2]
+}
+
+
+coda2
+{
+	Opt1: Добре... робити ігри просто. [fire pres11a enable] [fire bustawalls1 trigger] [play game3]
+	Opt2: Звісно... робити ігри легко. [fire pres11b enable] [fire bustawalls1 trigger] [play game3]
+	Opt3: Гаразд... розробка ігор не потребує зусиль. [fire pres11c enable] [fire bustawalls1 trigger] [play game3]
+}
+
+game3
+{
+	[color db476a]
+	[wait 2 sec]
+Ааах... від цього так чудово.
+	[wait 2 sec]
+[play coda3]
+}
+
+coda3
+{
+	Opt1: ... але ж це не правда. [fire pres12a enable] [play game4]
+	Opt2: Чому це стіни щойно обвалилися? [fire pres12b enable] [play game4]
+	Opt3: Чому я почувався жахливо, кажучи це? [fire pres12c enable] [play game4]
+}
+
+game4
+{
+	[color db476a]
+	[wait 2 sec]
+Не переймайся цим, просто кажи далі.
+	[wait 2 sec]
+Продовжуй казати, що творчість - це легко.
+	[wait 3 sec]
+[play coda4]
+}
+
+coda4
+{
+	Opt1: Коли я створюю ігри, почуваюся сповненим силами. [fire bustawalls2 trigger] [play game5]
+	Opt2: Я постійно завзятий і захоплений своєю працею. [fire bustawalls2 trigger] [play game5]
+	Opt3: Це легко і ніколи не перестане таким бути. [fire bustawalls2 trigger] [play game5]
+}
+
+game5
+{
+	[color c33f5e]
+	[wait 2 sec]
+Так, це чудово.
+	[wait 2 sec]
+Продовжуй.
+	[wait 2 sec]
+[play coda5]
+}
+
+coda5
+{
+	Opt1: Кожного разу, створюючи щось, я здаюся собі кращим. [fire bustawalls3 trigger] [fire bustawalls4 trigger] [play game6]
+	Opt2: Просто не припиняй творити і тоді ніколи не будеш почуватися погано. [fire bustawalls3 trigger] [fire bustawalls4 trigger] [play game6]
+	Opt3: Це так просте рішення. [fire bustawalls3 trigger] [fire bustawalls4 trigger] [play game6]
+}
+
+game6
+{
+	[color aa3752]
+	[wait 2 sec]
+Бездоганно.
+	[wait 2 sec]
+Казкове відчуття.
+	[wait 2 sec]
+[play coda6a]
+}
+
+coda6a
+{
+	Opt1: Нічого з цього не допомагає. [play game6a]
+	Opt2: Мене от-от знудить. [play game6a]
+	Opt3: Будь-ласка! Де машина! [play game6a]
+}
+
+game6a
+{
+	[wait 2 sec]
+Терпіння. Довіртеся мені.
+	[wait 2 sec]
+Я обіяю, що це спрацює.
+	[wait 2 sec]
+Прошу, продовжуйте.
+	[wait 2 sec]
+[play coda6]
+}
+
+coda6
+{
+	Opt1: Біль відходить без особливих зусиль. [fire bustawalls5 trigger] [play game7]
+	Opt2: Будь-які жертви заради моєї праці варті 100% часу. [fire bustawalls5 trigger] [play game7]
+	Opt3: Врешті решт це окупиться. [fire bustawalls5 trigger] [play game7]
+}
+
+game7
+{
+	[color 943048]
+	[wait 2 sec]
+Так.
+	[wait 1 sec]
+Більше.
+	[wait 1 sec]
+Продовжуй.
+	[wait 2 sec]
+[play coda7]
+}
+
+coda7
+{
+	Opt1: Нема ні сорому, ні страху, ні відчуття провини. [fire bustawalls6 trigger] [play game8]
+	Opt2: Моя праця врятує мене. [fire bustawalls6 trigger] [play game8]
+	Opt3: Я вірю в це, без сумнівів. Я - сама впевненість. [fire bustawalls6 trigger] [play game8]
+}
+
+game8
+{
+	[color 7d283c]
+	[wait 1 sec]
+Неймовірно.
+	[wait 2 sec]
+Це воно.
+	[wait 2 sec]
+Я вільний.
+	[wait 2 sec]
+Я вільний.
+	[wait 3 sec]
+[clear]
+}
+
+
+[go]
+

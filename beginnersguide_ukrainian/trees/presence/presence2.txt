@@ -1,0 +1,52 @@
+#modern
+
+game1
+{
+	[color f85078] 
+Це людина? Як чудово!
+	[wait 2 sec]
+Минуло багато часу відтоді, як я з кимось говорив.
+	[wait 2 sec]
+...
+	[wait 2 sec]
+Щось не так? Ви наче заблукали.
+	[wait 4 sec]
+[play dialogue1]
+}
+
+dialogue1
+{
+	[color ffffff]
+	Opt1: У мене остаточно закінчилися ідеї. [fire pres4a enable] [fire block3fadeout trigger] [play transition1]
+	Opt2: Коли намагаюсь творити, відчуваю порожнечу. [fire pres4b enable] [fire block3fadeout trigger] [play transition2]
+	Opt3: Мені більше нічого вкладати у свою працю. [fire pres4c enable] [fire block3fadeout trigger] [play transition3]
+}
+
+transition1
+{
+	[wait 3 sec]
+[fire VO_1 start]
+	[wait 1 sec]
+[fire presence2a enable]
+	[wait 1 sec]
+}
+
+transition2
+{
+	[wait 3 sec]
+[fire VO_1 start]
+	[wait 1 sec]
+[fire presence2a enable]
+	[wait 1 sec]
+}
+
+transition3
+{
+	[wait 3 sec]
+[fire VO_1 start]
+	[wait 1 sec]
+[fire presence2a enable]
+	[wait 1 sec]
+}
+
+[game1]
