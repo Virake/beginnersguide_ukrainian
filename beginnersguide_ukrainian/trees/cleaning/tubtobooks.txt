@@ -1,0 +1,16 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+	[fire books_continue1 enable]
+	[wait 0.1 sec]
+	[fire books_reset trigger]
+	На підлозі у спальні ще є книжки?
+		[wait 1 sec]
+	Якщо є - поскладаєш їх на полицю, добре?
+}
+
+
+
+[Go]

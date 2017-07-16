@@ -1,0 +1,17 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+	Ще поправ там килим, гаразд?
+		[wait 1 sec]
+	[fire closet_continue1 enable]
+	[wait 0.1 sec]
+	[fire closet_reset trigger]
+		[wait 1 sec]
+	Важлива кожна дрібниця!
+}
+
+
+
+[Go]

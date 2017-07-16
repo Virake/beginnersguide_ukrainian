@@ -1,0 +1,16 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+[fire pillows_continue2 enable]	
+	[wait 0.1 sec]
+[fire pillows_reset trigger]
+Боже, подушки на дивані лежать абияк.
+	[wait 2 sec]
+Підеш туди та поскладаєш їх, добре? Диван має бути охайний, коли прийдуть господарі.
+	[wait 1 sec]
+}
+
+
+[Go]

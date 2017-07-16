@@ -1,0 +1,59 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+	Мені кортить поділитися з тобою власним надзвичайно банальним міркуванням. Не заперечуєш?
+		[wait 2 sec]
+	[play talk1]
+}
+
+talk1
+{
+	[color ffffff] 
+Opt1: Нехай це буде твоє найбанальніше міркування. [wait 2 sec] [play response1]
+Opt2: Гаразд, намагатимуся стерпіти. [wait 2 sec] [play response1]
+Opt3: А це обов'язково? [wait 2 sec] [play response3]
+}
+
+response1
+{
+	[color 00e53b] 
+	...
+		[wait 2 sec]
+	...
+		[wait 3 sec]
+	Ні...
+		[wait 2 sec]
+	Не треба, то дурниця, вибач.
+		[wait 1 sec]
+	Забудь.	
+		[wait 2 sec]
+	Слухай, треба ж посуд помити. Піди зроби це.
+	[fire dishes_continue1 enable]
+	[wait 0.1 sec]	
+	[fire dishes_reset trigger]
+}
+
+
+
+response3
+{
+	[color 00e53b] 
+	Так.
+		[wait 2 sec]
+	...
+		[wait 3 sec]
+	Ні. Необов'язково. То дурниця.
+		[wait 1 sec]
+	Забудь.
+		[wait 2 sec]
+	Слухай, треба ж посуд помити. Піди зроби це.
+	[fire dishes_continue1 enable]
+	[wait 0.1 sec]
+	[fire dishes_reset trigger]
+}
+
+
+
+[Go]

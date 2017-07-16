@@ -1,0 +1,17 @@
+#modern
+
+Go
+{
+	[color 00e53b]
+...
+	[wait 2 sec]
+Питання:
+	[wait 3 sec]
+Подобається це робити?
+	[wait 0.5 sec]
+[fire cutoff trigger]
+}
+
+
+
+[Go]

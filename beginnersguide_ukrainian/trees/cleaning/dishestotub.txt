@@ -1,0 +1,19 @@
+#modern
+
+Go
+{
+	[color 00e53b]
+	Треба почистити ванну.
+		[wait 2 sec]
+	Вишкрябай її якомога ретельніше.
+		[wait 1 sec]
+	[fire tub_continue1 enable]
+	[wait 0.1 sec]
+	[fire tub_reset trigger]
+		[wait 1 sec]
+	Я не вимагаю досконалого виконання, ми ж лише люди.
+}
+
+
+
+[Go]

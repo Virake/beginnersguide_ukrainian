@@ -1,0 +1,35 @@
+#modern
+
+Go
+{
+	[color 00e53b]
+	[fire tub_continue2 enable]
+	[wait 0.1 sec]
+	[fire tub_reset trigger]
+	Здається, ванна забруднилася.
+		[wait 1 sec]
+	Може, трохи почисть її?
+}
+
+
+
+[Go]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

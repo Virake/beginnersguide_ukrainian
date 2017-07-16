@@ -1,0 +1,17 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+	Дуже гарно, такий стіл мені подобається.
+		[wait 2 sec]
+	А тепер піди, будь ласка, у спальню та застели ліжко.
+		[wait 1 sec]
+	[fire bed_continue1 enable]
+	[wait 0.1 sec]
+	[fire bed_reset trigger]
+}
+
+
+
+[Go]

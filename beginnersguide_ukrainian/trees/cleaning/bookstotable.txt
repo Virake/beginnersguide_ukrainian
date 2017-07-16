@@ -1,0 +1,17 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+	Пречудово.
+		[wait 2 sec]
+	Так, а тепер забери посуд зі столу, добре?
+[fire table_continue2 enable]
+	[wait 0.1 sec]
+[fire table_reset trigger]
+	[wait 3 sec]
+	[fire VO_4 start]
+	[wait 1 sec]
+}
+
+[Go]
