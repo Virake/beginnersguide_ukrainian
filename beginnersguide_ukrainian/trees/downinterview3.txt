@@ -1,0 +1,218 @@
+start
+{
+	[color f15822]
+	[fire speak1 trigger] Ви! Ви прийшли згори? Що там було, нагорі?
+		[Wait 5 sec]
+	[fire listen1 trigger] [Play Response1]
+	
+}
+
+Response1
+{
+	[color ffcc00] Opt1: Так, там був світ, залитий білизною. [Play 1a]
+	[color ffcc11] Opt2: Так, там була здоровенна тюрма, де я просидів багато годин. [Play 1a]
+	[color ffcc22] Opt3: Так, там були такі плавучі різнокольорові блоки. [Play 1a]
+}
+
+1a
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Це світ нагорі! Ви були там!
+		[Wait 3 sec]
+	Це важливо: чи вам довелося проходити головоломку з двома дверима та важелілями?
+		[wait 3 sec]
+	[fire listen1 trigger] [Play 1aResponse]
+}
+
+1aResponse
+{
+	[color ffcc00] Opt1: Так, довелося! Це останнє, що я зробив до того, як опинився тут! [Play 2a]
+	[color ffcc11] Opt2: Ні, не пригадую, щоб проходив якісь головоломки. [Play 2b]
+	[color ffcc22] Opt3: Не хотів би вам це казати. Врешті, ми тільки щойно зустрілися. [Play 2c]
+}
+
+2a
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Знову, чудово! Тепер, будь ласка, розкажіть, як ви її вирішили! Назвіть рішення! Розкажіть, як потрапити на інший бік.
+		[Wait 1 sec]
+	[fire VO_13 start]
+		[wait 2 sec]
+	[fire listen1 trigger] [Play 2aResponse]
+}
+
+2aResponse
+{
+	[color ffcc00] Opt1: Я... я не пам'ятаю, як її вирішувати. Я намагаюсь згадати, але не можу. [Play downfinala]
+	[color ffcc11] Opt2: Я не вирішив її, мене хтось пропустив. [Play downfinalb]
+	[color ffcc22] Opt3: Повірте, краще вам туди не ходити... [Play downfinalc]
+}
+
+2b
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Ви не пройшли? Але як тоді опинилися тут! Головоломка єдиний шлях!
+		[Wait 1 sec]
+	[fire VO_13 start]
+		[wait 2 sec]
+	[fire listen1 trigger] [Play 2bResponse]
+}
+
+2bResponse
+{
+	[color ffcc00] Opt1: Є й інші щляхи, туди і назад. [Play downfinald]
+	[color ffcc11] Opt2: Не пам'ятаю, як опинився тут. [Play downfinala]
+	[color ffcc22] Opt3: Стривайте, звісно ж так, я пройшов її! Я чемпіон з розв'язування головоломок! Я можу йти куди схочу! [Play downfinale]
+}
+
+
+2c
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Що?? Але ви... ви не розумієте. Ми застрягли тут, а ця головоломка - наш єдиний вихід, ми повинні вибратися звідси!
+		[Wait 2 sec]
+	[fire VO_13 start]
+		[wait 2 sec]
+	[fire listen1 trigger] [Play 2cResponse]
+}
+
+
+2cResponse
+{
+	[color ffcc00] Opt1: Ви гадаєте, що хочете вибратись, але цього краще не робити. [Play downfinalc]
+	[color ffcc11] Opt2: Давайте я опишу те місце, розповім геть усе про те, що там. [Play downfinalf]
+	[color ffcc22] Opt3: Гаразд, я розповім, як її вирішити. [Play downfinalg]
+}
+
+
+
+
+
+downfinala
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Ви маєте поміркувати ретельніше, будь ласка! Спробуйте згадати!
+		[Wait 2 sec]
+	Нам понад усе важливо вибратися звідси, ми мусимо втекти з цієї в'язниці!
+		[Wait 2 sec]
+	Можете ще трохи подумати?
+		[Wait 2 sec]
+	Там мало залишитися ще щось.
+		[Wait 2 sec]
+	Будь ласка, розкажіть нам, як досягнути кінця.
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+downfinalb
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Ви не вирішували її?
+		[Wait 2 sec]
+	Тоді ви нічому не навчилися.
+		[Wait 2 sec]
+	Ви не допоможете нам втекти з в'язниці.
+		[Wait 2 sec]
+	Ви не той, хто мені потрібен.
+		[Wait 2 sec]
+	Має прийти хтось інший.
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinalc
+{
+		[wait 2 sec]
+	[fire speak1 trigger] О, ні, але мені це потрібно! Нам це потрібно! Нам треба туди!
+		[Wait 2 sec]
+	Розумієте? Це найважливіше у світі!
+		[Wait 2 sec]
+	Ми повинні втекти з в'язниці!
+		[Wait 2 sec]
+	Там має бути закінчення!
+		[Wait 2 sec]
+	Запевняю, немає нічого, чого я хотів би більше!
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinald
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Є? Але, будь ласка, ви маєте сказати мені! Маєте сказати нам!
+		[Wait 2 sec]
+	Ви не розумієте, нам треба вибратися звідси, це найважливіше!
+		[Wait 2 sec]
+	Ми повинні вибратись з цієї в'язниці!
+		[Wait 2 sec]
+	Чуєте мене?
+		[Wait 2 sec]
+	Скажіть, як дійти до кінця.
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinale
+{
+		[wait 2 sec]
+	[fire speak1 trigger] …
+		[Wait 2 sec]
+	Ні, ви не можете.
+		[Wait 2 sec]
+	Ви не бували на тому боці, ви й уявлення не маєте, що там.
+		[Wait 2 sec]
+	Ви не можете допомогти нам втекти з цієї в'язниці.
+		[Wait 2 sec]
+	Ви не той, хто мені потрібен.
+		[Wait 2 sec]
+	Має прийти хтось інший.
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinalf
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Ні, цього не достатньо, мені треба насправді опинитися там.
+		[Wait 2 sec]
+	Мені не можна просто розповісти, що там.
+		[Wait 2 sec]
+	Я маю побачити на власні очі.
+		[Wait 2 sec]
+	Маю вибратися з цієї тюрми.
+		[Wait 2 sec]
+	Там має бути закінчення!
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinalg
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Чудово!
+		[Wait 2 sec]
+	…
+		[Wait 2 sec]
+	…
+		[Wait 2 sec]
+	Ну?
+		[Wait 2 sec]
+	Що далі? Яка відповідь?
+		[Wait 2 sec]
+	Будь ласка, говоріть зі мною, скажіть, як втекти! Скажіть, як вирватися з в'язниці!
+		[Wait 2 sec]
+	Я маю знати! Це найважливіше!
+		[Wait 2 sec]
+	Там має бути завершення!
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+
+[start]

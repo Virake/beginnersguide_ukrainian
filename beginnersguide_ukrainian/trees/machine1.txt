@@ -1,0 +1,44 @@
+#modern
+
+Text1
+{
+	[color 747774]
+	[fire guardtalk1 trigger]Панно! Радий бачити, що ви безпечно прибули.
+		[wait 2 sec]
+	Ми захопили Машину, тепер вона чекає на вас.
+		[wait 2 sec]
+	Можете розпочати допит, коли захочете.
+		[wait 2 sec]
+	[play Response1]
+	
+}
+
+Response1
+{
+	[color ffffff] Opt1: Я буду діяти швидко. [Play text2]
+	[color ffffff] Opt2: Я буду діяти тихо. [Play text2]
+	[color ffffff] Opt3: Я буду діяти жорстоко. [Play text2]
+}
+
+text2
+{
+	[wait 2 sec]
+[fire guardtalk2 trigger]Дуже Добре.
+	[wait 2 sec]
+Тільки зважайте, що хтось викликав пресу, так що це може привернути багато уваги.
+	[wait 3 sec]
+Є ще дещо, що слід знати про машину:
+	[wait 2 sec]
+Вона називає себе Кодою.
+	[wait 4 sec]
+[fire door_open trigger]
+	[wait 1 sec]
+[clear]
+	[wait 1 sec]
+}
+
+
+
+
+
+[Text1]

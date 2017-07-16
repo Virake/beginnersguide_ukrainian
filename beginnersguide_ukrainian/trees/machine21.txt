@@ -1,0 +1,92 @@
+#modern
+
+start
+{
+	[color ffffff] Opt1: Ти припинив. [wait 1 sec] [fire machine_music_start trigger] [wait 2 sec] [play calledcoda]
+}
+
+calledcoda
+{
+	[color ffffff]
+	Opt1: Ти припинив годувати нас. [wait 2 sec]  [play dontcare]
+	Opt2: Твоя праця підтримувала наше життя. [wait 2 sec]  [play dontcare]
+	Opt3: Твоя робота підтримувала наше здоров'я. [wait 2 sec] [play dontcare]
+}
+
+dontcare
+{
+	Opt1: Ті люди, ти можеш уявити, якого болю їм завдав? [fire machine2_delay trigger] [wait 2 sec]  [play lostthatright]
+	Opt2: Тільки завдяки твоїм творінням ми кожного дня трималися. [fire machine2_delay trigger] [wait 2 sec]  [play allisee]
+	Opt3: Як ми можемо знову довірити тобі цю справу? [fire machine2_delay trigger] [wait 2 sec] [play speaktothem]
+}
+
+
+
+
+
+lostthatright
+{
+	Opt1: Ось як має бути: тобі слід вийти і вибачитися перед ними. [wait 6 sec]  [play talk]
+	Opt2: Ти маєш визнати, що дозволив їм страждати. [wait 6 sec]  [play talk]
+	Opt3: Я почувалася так самотньо. [wait 3 sec]  [play alone]
+}
+
+allisee
+{
+	Opt1: Ось як має бути: тобі слід піти до тих людей і вибачитися перед ними. [wait 6 sec]  [play talk]
+	Opt2: Ти маєш визнати, що дозволив їм страждати. [wait 6 sec]  [play talk]
+	Opt3: Я почувалася так самотньо. [wait 3 sec]  [play alone]
+}
+
+speaktothem
+{
+	Opt1: Ось як має бути: тобі слід піти до тих людей і вибачитися перед ними. [wait 6 sec]  [play talk]
+	Opt2: Ти маєш визнати, що дозволив їм страждати. [wait 6 sec]  [play talk]
+	Opt3: Я почувалася так самотньо. [wait 3 sec]  [play alone]
+}
+
+
+alone
+{
+	Opt1: Вибачись за те, що покинув мене. [wait 5 sec]  [play talkalone]
+}
+
+
+talk
+{
+	Opt1: Ні? Нічого? [wait 6 sec]  [play speakforyou]
+	Opt2: Подумай гарненько, я знаю, як зробити тобі боляче. [wait 6 sec]  [play speakforyou]
+	Opt3: Я бачила те, чого ти боїшся. [wait 6 sec]  [play speakforyou]
+}
+
+talkalone
+{
+	Opt1: Ні? Нічого? [wait 6 sec]  [play apologizeforyou]
+	Opt2: Подумай гарненько, я знаю, як зробити тобі боляче. [wait 6 sec]  [play apologizeforyou]
+	Opt3: Я бачила те, чого ти боїшся. [wait 6 sec]  [play apologizeforyou]
+}
+
+
+apologizeforyou
+{
+	Opt1: Гаразд, тоді я вибачусь перед людьми від твого імені. [wait 3 sec]  [play ending]
+}
+
+speakforyou
+{
+	Opt1: Гаразд. Тоді я поговорю з ними від твого імені. [wait 3 sec]  [play ending]
+}
+
+ending
+{
+	[clear]
+	[fire machine_door_open trigger]
+	[wait 1 sec]
+}
+
+
+
+
+
+
+[start]

@@ -1,0 +1,120 @@
+Text1
+{
+	[color f15822]
+	[clear]
+	[fire speak1 trigger] Привіт. Як ви сюди потрапили? Довелося проходити через головоломку?
+		[Wait 3 sec]
+	[fire listen1 trigger] [Play Response1]
+	
+}
+
+Response1
+{
+	[color ffcc00] Opt1: Так, хочете дізнатися, як її вирішити? [Play 1a]
+	[color ffcc11] Opt2: Ні, я весь час був тут. [Play 2a]
+}
+
+1a
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Ні, ні! Насправді, нас цікавить темний простір між дверима. Ви його бачили?
+		[wait 3 sec]
+	[fire listen1 trigger] [Play 1aResponse] 
+}
+
+1aResponse
+{
+	[color ffcc00] Opt1: Чому мене повинен турбувати простір між дверима? [Play final1]
+	[color ffcc11] Opt2: Справді, коли ви згадали про нього, я пригадав дивні відчуття, що з'явилися, коли я крізь нього проходив... [Play final2]
+	[color ffcc22] Opt3: Не пригадую простору між дверима... [Play final3]
+}
+
+2a
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Пропоную колись піти глянути на головоломку. Вона не створена такою, щоб її можна було вирішити, зате можена сидіти посередині, у чорному просторі.
+		[Wait 3 sec]
+	[fire listen1 trigger] [Play 2aResponse]
+}
+
+2aResponse
+{
+	[color ffcc00] Opt1: Що буде, якщо я її вирішу? [Play final4]
+	[color ffcc11] Opt2: Навіщо сидіти у чорному просторі? [Play final5]
+	[color ffcc22] Opt3: Хто ви? [Play final6]
+}
+
+final1
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Існує причина, але ви зрозумієте її тільки з часом. Це нормально.
+		[Wait 3 sec]
+	Незабаром, ви знову побачите її.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final2
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Не ламайте собі над цим голову.
+		[Wait 3 sec]
+	Незабаром, ви знову побачите її.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final3
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Не хвилюйтесь, я впевнений, що ви відвідаєте її знову. 
+		[Wait 3 sec]
+	Обов'язково зверніть увагу.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final4
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Не певен. Але, якщо мої підозри справдяться, то це не вартуватиме того, що знадобиться, аби потрапити туди.
+		[Wait 3 sec]
+	Незабаром, ви матимете ще один шанс вирішити головоломку.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final5
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] О, там дуже спокійно. Спершу може здатися інакше, але з часом ви прийдете до цієї думки.
+		[Wait 3 sec]
+	Врешті-решт.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final6
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Просто посидіть там трохи, у чорноті. Спершу не сподобатися, але згодом стане краще.
+		[Wait 3 sec]
+	Врешті-решт.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+
+[Text1]

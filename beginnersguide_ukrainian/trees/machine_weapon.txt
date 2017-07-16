@@ -1,0 +1,10 @@
+#modern
+
+Go
+{
+	[color ffffff] 
+	Опусти зброю.
+		[wait 4 sec]
+}
+
+[Go]

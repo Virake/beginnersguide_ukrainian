@@ -1,0 +1,47 @@
+#modern
+
+talk1
+{
+	[color ffffff] Opt1: МОЇ ПРИХИЛЬНИКИ! [wait 2 sec] [play talk2]
+	[color ffffff] Opt2: ДРУЗІ МОЇ! [wait 2 sec] [play talk2]
+}
+
+talk2
+{
+	Opt1: Мені доведеться повідомити сумні новини. [wait 2 sec] [play talk3]
+	Opt2: Я маю тривожне одкровення. [wait 2 sec] [play talk3]
+}
+
+talk3
+{
+	Opt1: Машина не буде вибачатись перед нами. [wait 2 sec] [play talk4a]
+	Opt2: Машина відмовляється визнавати, що навмисно завдав нам болю. [wait 2 sec] [play talk4a]
+}
+
+talk4a
+{
+	Opt1: Але це не важливо! Ми сильніші, ніж йому здається. [wait 2 sec] [play talk4b]
+	Opt2: Ми знайдемо спосіб жити без нього! Нам не потрібні його ігри. [wait 2 sec] [play talk4b]
+}
+
+talk4b
+{
+	Opt1: Давайте відплатимо покаранням! [wait 2 sec] [play talk9]
+	Opt2: Давайте покажемо, що ми не якісь невдахи! [wait 2 sec] [play talk9]
+}
+
+talk9
+{
+	Opt1: За мною! Зруйнуймо машину! [wait 4 sec] [play talk10]
+	Opt2: За мною! Зруйнуймо все, створене машиною! [wait 4 sec] [play talk10]
+}
+
+talk10
+{
+	[clear]
+	[fire begin_theater trigger]
+	[wait 1 sec]
+}
+
+
+[talk1]

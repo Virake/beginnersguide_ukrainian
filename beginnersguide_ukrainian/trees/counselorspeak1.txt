@@ -1,0 +1,76 @@
+#modern
+
+counselor1
+{
+	[color f8fc25] Opt1: Ось ключове питання: як досягнути мети без зусиль. [wait 2 sec] [play counselor2]
+	[color 585a58] Opt2: Ідучи на роботу, я сказав літній людині почати вносити щось у розвиток суспільства. [wait 2 sec] [play counselor2]
+	[color 585a58] Opt3: Діти не повинні йти за своїми мріями. [wait 2 sec] [play counselor2]
+}
+
+
+
+
+counselor2
+{
+	[color f8fc25] Opt1: Що ж, дозвольте сказати: якщо рішення вимагає зусиль, тоді це хибна відповідь.  [wait 2 sec] [play counselor3]
+	[color 585a58] Opt2: Я досі тебе кохаю, просто відчуваю всередині холод через тебе. [wait 2 sec] [play counselor3]
+	[color 585a58] Opt3: Бути самотнім напевно жахливо. [wait 2 sec] [play counselor3]
+}
+
+counselor3
+{
+	[color 585a58] Opt1: Слава богу, всі ви сприймаєте мене, як мудрого і розумного!  [wait 2 sec] [play counselor4]
+	[color 585a58] Opt2: Пияцтво не шкодить моєму життю. [wait 2 sec] [play counselor4]
+	[color f8fc25] Opt3: Якщо ви мучите себе, намагаючись знайти слушні життєві рішення, то робите помилку. [wait 2 sec] [play counselor4]
+}
+
+counselor4
+{
+	[color 585a58] Opt1: Хіба ти не розумієш, що не матимеш щастя, доки не покохаєш мене? Це заради тебе. [wait 2 sec] [play counselor5]
+	[color f8fc25] Opt2: Шукайте тільки одне - найлегший, найпростіший шлях уперед. [wait 2 sec] [play counselor5]
+	[color 585a58] Opt3: Фу. У мене розростається киста. Бридота.  [wait 2 sec] [play counselor5]
+}
+
+
+counselor5
+{
+	[color 585a58] Opt1: ХАХАХА ЖАРТУЮ. [wait 2 sec] [play counselor7]
+	[color 585a58] Opt2: Хто-небудь хоче після цього вжити трохи екстазі? [wait 2 sec] [play counselor7]
+	[color f8fc25] Opt3: Нема істини. Нема шляху. [wait 2 sec] [play counselor7]
+}
+
+
+
+counselor7
+{
+	[color 585a58] Opt1: А що, як з мене кепський учитель...  [wait 2 sec] [play counselor9]
+	[color f8fc25] Opt2: Робіть найлегше. Робіть найпростіше. Відчуйте те, що істинне. [wait 2 sec] [play counselor9]
+	[color 585a58] Opt3: ОТ СРАНЬ хлопці з кінця кімнати щось насувається! СТЕРЕЖІТЬСЯ!!  [wait 2 sec] [play counselor9]
+}
+
+counselor9
+{
+	[color f8fc25] Opt1: Нікого. Нічого. [wait 1 sec] [fire ending trigger] [wait 2 sec] [play counselor10]
+	[color 585a58] Opt2: Воно йде на вас! Воно вас знищить! [wait 1 sec] [fire ending trigger] [wait 2 sec] [play counselor10]
+	[color 585a58] Opt3: Тікайте всі! ТІКАЙТЕ! [wait 1 sec] [fire ending trigger] [wait 2 sec] [play counselor10]
+}
+
+counselor10
+{
+	[color f8fc25] Opt1: Досконалість. [play wait]
+	[color f8fc25] Opt2: Досконалість. [play wait] 
+	[color f8fc25] Opt3: Досконалість. [play wait]
+}
+
+wait
+{
+	
+	[wait 1 sec]
+}
+
+[counselor1]
+
+
+
+
+
