@@ -16,8 +16,11 @@ The Beginner's Guide — Український переклад
 
 	Команда «UaLT»:
 Координатор: Virake
+
 Переклад: MisterBond, Кіндрат Книш, Viper9732, Virake, Viictorr, Yeahrik
+
 Шрифти: Кіндрат Книш
+
 Зображення: MisterBond, Virake, thefir
 
 Особлива подяка MisterBond, чий ентузіазм допоміг нам повернутися до активної праці.
