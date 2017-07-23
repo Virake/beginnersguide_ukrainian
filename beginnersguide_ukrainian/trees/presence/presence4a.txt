@@ -19,7 +19,7 @@ dialogue1
 	[color ffffff]
 	Opt1: Згода. [fire block6fadeout trigger] [play transition1]
 	Opt2: Згода. [fire block6fadeout trigger] [play transition1]
-	Opt3! Не має значення, що я скажу, чи не так? Ми все одно туди потрапимо, так чи інакше. Правда? [say2 Deal.]  [fire block6fadeout trigger] [play transition1]
+	Opt3! Не має значення, що я скажу, чи не так? Ми все одно туди потрапимо, так чи інакше. Правда? [say2 Згода.]  [fire block6fadeout trigger] [play transition1]
 }
 
 transition1
