@@ -103,7 +103,7 @@ coda6a
 {
 	Opt1: Нічого з цього не допомагає. [play game6a]
 	Opt2: Мене от-от знудить. [play game6a]
-	Opt3: Будь-ласка! Де машина! [play game6a]
+	Opt3: Будь ласка! Де машина! [play game6a]
 }
 
 game6a

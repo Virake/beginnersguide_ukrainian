@@ -14,7 +14,7 @@ dialogue1
 {
 	[color ffffff]
 	Opt1: Була машина, яка мене підтримувала, але вона зупинилася. [fire pres3a enable] [fire pres3a2 enable] [fire block4fadeout trigger] [play transition1]
-	Opt2: Намагаюся знайти двигуна, що захищав мене, і знову запустити його. [fire pres3b enable] [fire pres3b2 enable] [fire block4fadeout trigger] [play transition2]
+	Opt2: Намагаюся знайти рушій, що захищав мене і знову запустити його. [fire pres3b enable] [fire pres3b2 enable] [fire block4fadeout trigger] [play transition2]
 }
 
 transition1
