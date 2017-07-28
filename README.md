@@ -2,8 +2,8 @@
 
 Це неофіційна українська локалізація. Можливі глюки та помилки — будь ласка, повідомляйте, якщо знайдете. Наразі нам відомо про відсутність перекладу в деяких місцях (позначення дій в розділі «Будинок» і в кінці розділу «Машина»).
 
-Найсвіжіша версія: github.com/Virake/beginnersguide_ukrainian/releases/latest
-Повідомити про проблему: github.com/Virake/beginnersguide_ukrainian/issues
+Найсвіжіша версія: [https://github.com/Virake/beginnersguide_ukrainian/releases/latest]
+Повідомити про проблему: [https://github.com/Virake/beginnersguide_ukrainian/issues]
 Адреса для відгуків, побажань, скарг і пропозицій: [ualt.feedback@gmail.com](mailto:ualt.feedback@gmail.com)
 
 ## Інструкція:
