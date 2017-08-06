@@ -60,7 +60,7 @@ Response1
 
 2bResponse
 {
-	[color ffcc00] Opt1: Є й інші щляхи, туди і назад. [Play downfinald]
+	[color ffcc00] Opt1: Є й інші шляхи, туди і назад. [Play downfinald]
 	[color ffcc11] Opt2: Не пам'ятаю, як опинився тут. [Play downfinala]
 	[color ffcc22] Opt3: Стривайте, звісно ж так, я пройшов її! Я чемпіон з розв'язування головоломок! Я можу йти куди схочу! [Play downfinale]
 }
