@@ -11,7 +11,7 @@ past1
 future1
 {
 [color ffcc00] 
-Opt1: Агов! Це я! Я - це ти після втечі з в'язниці! [fire dial1 playsound] [play past2]
+Opt1: Агов! Це я! Я — це ти після втечі з в'язниці! [fire dial1 playsound] [play past2]
 }
 
 past2
@@ -41,15 +41,15 @@ past3
 [wait 2 sec]
 О, я такий задоволений, що врешті-решт вийду!
 [wait 3 sec]
-Як це - втекти?
+Як це — втекти?
 [wait 3 sec]
 [play future3]
 }
 
 future3
 {
-Opt1: Правду кажучи, вже починаю забувати, як було у в'язниці... [fire dial1 playsound] [play past4a]
-Opt2: Це дивно, але у я певним чином сумую за тюрмою. [fire dial2 playsound] [play past4b]
+Opt1: Правду кажучи, уже починаю забувати, як було у в'язниці... [fire dial1 playsound] [play past4a]
+Opt2: Це дивно, але я певним чином сумую за тюрмою. [fire dial2 playsound] [play past4b]
 Opt3: Таке відчуття, ніби я повністю нерухомий, але в ту ж мить рухаюся з великою швидкістю. [fire dial3 playsound] [play past4c]
 }
 
@@ -94,7 +94,7 @@ past5b
 
 future6
 {
-Opt1: Ха-ха, обіцяю, все зараз не так погано, як ти гадаєш.  [fire dial1 playsound]  [play transition]
+Opt1: Ха-ха, обіцяю, усе зараз не так погано, як ти гадаєш.  [fire dial1 playsound]  [play transition]
 Opt2: Ти ніколи не забудеш, просто перестанеш ототожнювати себе з цим. [fire dial2 playsound]  [play transition]
 Opt3: Будь-що здається нескінченним, якщо зав'язнути в ньому. [fire dial3 playsound]  [play transition]
 }
@@ -149,7 +149,7 @@ past7b
 future9
 {
 Opt1: І не потрібно! Слід лише бути терплячим. [fire dial1 playsound]  [play transition]
-Opt2: Наявність обмежень - набагато важливіше, ніж тобі зараз здається... [fire dial2 playsound]  [play transition]
+Opt2: Наявність обмежень — набагато важливіше, ніж тобі зараз здається... [fire dial2 playsound]  [play transition]
 Opt3: Ти зрозумієш, про що я, коли пробудеш там трохи довше. [fire dial3 playsound]  [play transition]
 }
 
@@ -160,7 +160,7 @@ past7c
 [wait 3 sec]
 Це те, завдяки чому я тримаюся!
 [wait 2 sec]
-"Збуджений" - це не те слово.
+"Збуджений" — це не те слово.
 [wait 2 sec]
 [play future10]
 }
@@ -185,7 +185,7 @@ past4c
 future11
 {
 Opt1: Ні, насправді я такий самий, як і раніше. [fire dial1 playsound] [play past11a]
-Opt2: Все дійсно змінилося, я не відчуваю себе тією самою людиною. [fire dial2 playsound]  [play past11b]
+Opt2: Усе дійсно змінилося, я не відчуваю себе тією самою людиною. [fire dial2 playsound]  [play past11b]
 }
 
 past11a
@@ -227,7 +227,7 @@ Opt3: Насолоджуйся тим, ким ти є зараз, бо це не
 transition
 {
 [wait 2 sec]
-Зачекай, якщо ти - це я, тоді тобі зателефонувала інша версія тебе коли ти був у пастці?
+Зачекай, якщо ти — це я, тоді тобі зателефонувала інша версія тебе коли ти був у пастці?
 [wait 5 sec]
 [play future100]
 }
@@ -348,7 +348,7 @@ talk2
 
 sincere3
 {
-Opt1: Слухай, не дізнаєшся поки не виберешся, але обіцяю - це спрацює. [fire dial1 playsound] [play sincere4]
+Opt1: Слухай, не дізнаєшся поки не виберешся, але обіцяю — це спрацює. [fire dial1 playsound] [play sincere4]
 Opt2: Просто будь щирим. [fire dial2 playsound] [play sincere4]
 Opt3: Це матиме сенс, потім. [fire dial3 playsound] [play sincere4]
 }
@@ -368,7 +368,7 @@ Opt1: Це саме те, що треба з'ясувати, щоб вибрат
 
 feel3
 {
-Opt1: Слухай, не дізнаєшся поки не виберешся, але обіцяю - це спрацює. [fire dial1 playsound] [play feel4]
+Opt1: Слухай, не дізнаєшся поки не виберешся, але обіцяю — це спрацює. [fire dial1 playsound] [play feel4]
 Opt2: Просто скажи мені, як почуваєшся. [fire dial2 playsound] [play feel4]
 Opt3: Це матиме сенс, потім. [fire dial3 playsound] [play feel4]
 }
@@ -390,7 +390,7 @@ Opt3: Продовжуй. [fire dial3 playsound] [play ending]
 
 talk3
 {
-Opt1: Слухай, не дізнаєшся поки не виберешся, але обіцяю - це спрацює. [fire dial1 playsound] [play talk4]
+Opt1: Слухай, не дізнаєшся поки не виберешся, але обіцяю — це спрацює. [fire dial1 playsound] [play talk4]
 Opt2: Просто говори зі мною. [fire dial2 playsound] [play talk4]
 Opt3: Це матиме сенс, потім. [fire dial3 playsound] [play talk4]
 }

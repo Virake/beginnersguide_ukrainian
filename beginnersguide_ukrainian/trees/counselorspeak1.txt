@@ -27,7 +27,7 @@ counselor3
 counselor4
 {
 	[color 585a58] Opt1: Хіба ти не розумієш, що не матимеш щастя, доки не покохаєш мене? Це заради тебе. [wait 2 sec] [play counselor5]
-	[color f8fc25] Opt2: Шукайте тільки одне - найлегший, найпростіший шлях уперед. [wait 2 sec] [play counselor5]
+	[color f8fc25] Opt2: Шукайте тільки одне — найлегший, найпростіший шлях уперед. [wait 2 sec] [play counselor5]
 	[color 585a58] Opt3: Фу. У мене розростається киста. Бридота.  [wait 2 sec] [play counselor5]
 }
 
