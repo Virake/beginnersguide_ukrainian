@@ -15,7 +15,7 @@ Go
 response1
 {
 [color ffffff]
-	Opt1: За мене не хвилюйся, в такому гарному місці я охоче залишуся на всю ніч. [wait 2 sec] [play cleaner01]
+	Opt1: За мене не хвилюйся, у такому гарному місці я охоче залишуся на всю ніч. [wait 2 sec] [play cleaner01]
 	Opt2: А в занедбаних домівках... люди самотні! [wait 2 sec] [play cleaner02]
 	Opt3: Ми маємо прибрати геть усюди? [wait 2 sec] [play cleaner03]
 }

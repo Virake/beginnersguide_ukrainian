@@ -5,7 +5,7 @@ Go
 	[color 00e53b] 
 	Лишенько, хтось розлив напій біля дивана.
 		[wait 2 sec]
-	Може, повтирай там, щоби потім не вертатися?
+	Може, повитирай там, щоби потім не повертатися?
 [fire spill_continue1 enable]
 	[wait 0.1 sec]
 [fire spill_reset trigger]
